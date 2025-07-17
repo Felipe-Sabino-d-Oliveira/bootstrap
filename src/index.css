@@ -1,0 +1,57 @@
+/* Carrosel superior com  3 imagens em slide */
+
+#carouselExampleIndicators {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  overflow: hidden;
+  height: 440px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #aeaeae;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 100px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 100px;
+}
+
+@media (max-width: 576px) {
+  .carousel-inner {
+    height: 250px;
+  }
+  .carousel-inner img {
+    height: 300px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-right: 15px;
+  }
+
+  .carousel-control-next-icon {
+    margin-left: 15px;
+  }
+}
