@@ -55,3 +55,8 @@
     margin-left: 15px;
   }
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
